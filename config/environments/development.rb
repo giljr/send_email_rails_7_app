@@ -75,15 +75,15 @@ Rails.application.configure do
   # }
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default_options = {from: 'giljr.2009@gmail.com'}
+  config.action_mailer.default_options = {from: '<your_email@gmail.com>'}
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
   address:              'smtp.gmail.com',
   port:                 587,
   domain:               'JAYTHREE',
-  user_name:            'giljr.2009@gmail.com',
-  password:             'byyhchaomafiuimz',
+  user_name:            '<your_email@gmail.com>',
+  password:             'GOTO: https://myaccount.google.com/apppasswords',
   authentication:       'plain',
   enable_starttls_auto: true  }
 end
